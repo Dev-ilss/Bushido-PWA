@@ -2,7 +2,7 @@ self.addEventListener("install", (e) => {
   e.waitUntil(
     caches.open("static").then((cache) => {
       return cache.addAll(["./", "./assets/*.css", "./assets/*.png", "./assets/*.jpg", "./assets/*.otf"]);
-    })
+    }).catch(e => console.log(e))
   );
 });
 
