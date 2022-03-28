@@ -1,6 +1,7 @@
 {
   "name": "Bushido",
   "short_name": "Bushido",
+  "description": "Bushido es un juego 2D run and gun que se ubica en el año 1575 en Mikawa, Japon. En el que nuestro protagonista tendra que enfrentar una amenza para toda la region y probablemente todo el mundo",
   "start_url": ".",
   "icons": [
     {
